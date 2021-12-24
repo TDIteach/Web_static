@@ -1,0 +1,115 @@
+/* @font-face {
+  font-family: 'museoslab-500';
+  src: url('../fonts/museoslab-500.otf');
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', cursive;
+  font-size: 1rem;
+}
+body {
+  padding: 20px 0px 0px 100px;
+}
+#social_networks {
+  width: 50px;
+  border: 1px solid rgb(88, 107, 144);
+  position: fixed;
+  left: 0px;
+  top: 200px;
+  border-radius: 0px 10px 10px 0px;
+  padding: 5px;
+}
+#social_networks img {
+  width: 34px;
+  height: 34px;
+  display: block;
+  margin-top: 5px;
+}
+h1 {
+  color: rgb(22, 126, 216);
+}
+hr {
+  margin: 5px 0px;
+}
+th:first-child {
+  width: 20%;
+}
+
+th {
+  text-align: left;
+}
+td:last-child,
+th:last-child {
+  padding-left: 50px;
+}
+th,
+td {
+  padding-top: 10px;
+}
+#photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.stars {
+  width: 15px;
+  height: 15px;
+}
+h3.skill {
+  display: inline-block;
+  margin-right: 20px;
+  min-width: 200px;
+}
+.stars_group {
+  display: inline-block;
+  min-width: 200px;
+}
+.listes {
+  padding: 10px;
+}
+.listes li {
+  padding-left: 30px;
+  margin-top: 10px;
+}
+/* contact */
+#contact_form {
+  background-color: rgb(133, 148, 161);
+  width: 80%;
+  margin: auto;
+}
+#contact_form table {
+  width: 100%;
+}
+#contact_form input[type='submit'],
+#contact_form input[type='reset'] {
+  padding: 20px;
+  width: 40%;
+  border-radius: 7px;
+  border: 1px solid rgb(238, 162, 41);
+}
+
+#contact_form input[type='reset'] {
+  margin-left: 30px;
+}
+#contact_form td {
+  padding: 40px 10px;
+}
+#contact_form input[type='text'] {
+  padding: 20px;
+  width: 100%;
+  border: 1px solid red;
+  border-radius: 7px;
+}
+#contact_form input[type='submit']:hover,
+#contact_form input[type='reset']:hover {
+  background-color: rgb(238, 162, 41);
+}
+#contact_form h1,
+#contact_form td {
+  text-align: center;
+}
